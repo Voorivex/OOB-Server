@@ -8,6 +8,8 @@ options {
 
         allow-query { any; };
 
+        recursion no;
+
         dnssec-validation auto;
 
         auth-nxdomain no;    # conform to RFC1035

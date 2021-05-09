@@ -8,6 +8,7 @@ $TTL    120
 ;
 ns1              IN      A       DOMAIN_IP
 ns2              IN      A       DOMAIN_IP
-*                IN      A   	 DOMAIN_IP
+@                IN      A   	   DOMAIN_IP
+*                IN      A   	   DOMAIN_IP
 @                IN      NS      ns1.DOMAIN_NAME.
 @                IN      NS      ns2.DOMAIN_NAME.
